@@ -1,0 +1,19 @@
+{
+  "name": "text-transfer",
+  "version": "1.0.0",
+  "description": "See readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenbraham/text-transfer.git"
+  },
+  "author": "Steven Braham <steven@braham.biz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenbraham/text-transfer/issues"
+  },
+  "homepage": "https://github.com/stevenbraham/text-transfer#readme"
+}

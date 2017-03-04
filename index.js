@@ -8,12 +8,11 @@ var tmp = require('tmp');
 var open = require('open');
 var fs = require('fs');
 
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 app.listen(20755);
+app.use(express.static('web/build'));
+
 console.log("TextTransfer is active");
-app.get('/', (req, res) => {
-    res.send("text transfer");
-});
 
 app.post('/message', (req, res) => {
     console.log("Received new post");
